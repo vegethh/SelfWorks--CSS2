@@ -1,0 +1,83 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+h1, h2, h3, h4{
+    font-family: 'Electrolize', sans-serif;
+    color: #453F78; margin-top: 0px; padding: 10px; 
+}
+
+header{background-color: #8175ab55; display: flex; justify-content: center; align-items: center;} 
+
+nav{background-image: url(https://picsum.photos/200/300); position: sticky; top: 0px; display: flex; flex-wrap: wrap; justify-content:space-between; align-items: start; padding: 10px;}
+ 
+.LinkHome{color: rgb(120, 30, 210);
+text-decoration: none; font-size: 15px;}
+
+
+
+.AulabLogo1{height: 80px;}
+
+
+.Sicily{background-color:black;
+color: white; } 
+
+.Sicily:hover{
+    background-color: aquamarine;
+    color: whitesmoke;
+}
+
+a{color: grey; text-decoration: none;}
+
+aside{
+    background-color: burlywood; display: flex; flex-wrap: wrap; justify-content: center; align-items: start;
+}
+
+.Picture{
+width: 99%;
+}
+
+article{
+width: 50%;
+}
+
+section{
+    display: flex; border: 9px, solid, brown; margin-bottom: 20px; padding: 0px;
+}
+
+
+div{
+    display: flex; justify-content: center; font-size: 30px; height: 70px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 600px)
+{
+    .AulabLogo1{
+        width: 30vw; 
+    }
+
+    .Picture{width: 350px; height: 250p;}
+    
+    }
+
+
+
+
+
